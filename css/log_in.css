@@ -12,3 +12,12 @@
   align-items: center;
   width: 100%
 }
+
+.sticky-footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(200 200 200);
+  position: absolute;
+  bottom: 0;
+  width: 1000px;
+}
