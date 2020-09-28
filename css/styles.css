@@ -1,0 +1,88 @@
+html, body {
+  min-height: 100% !important;
+  height: 100%;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(235, 224, 224);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 70px;
+}
+
+hr {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+a {
+  color: black;
+}
+
+#logo {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#example-img {
+  width: 402px;
+  height: 300px;
+  overflow: hidden;
+  filter: grayscale(1);
+  border: solid gray 4px;
+  border-radius: 10px;
+}
+
+#notebook-img {
+  width: 500px;
+  margin-left: -60px;
+  margin-top: -8px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+#home-content>* {
+  margin: 0 20px;
+}
+
+#main-hdr {
+  width: 500px
+}
+
+#main-hdr > p {
+  font-size: 25px;
+}
+
+#sign-up {
+  font-size: 25px;
+  background-color: rgb(198 47 47);
+  height: 250px;
+  text-align: center;
+  width: 100%;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+#sticky-footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(200 200 200);
+}

@@ -1,0 +1,59 @@
+.log-out {
+  position: absolute;
+  right: 20px;
+}
+
+#side-bar {
+  height:100%;
+  width: 200px;
+  background-color: #e4d6d6;
+  border-right: solid rgb(197, 197, 197) 2px;
+  border-top: solid rgb(197, 197, 197) 2px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#side-bar > div {
+  padding-left: 25px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#side-bar > button {
+  margin: 20px 10px;
+}
+
+#selected {
+  background-color: #a5a5a5;
+}
+
+#projects {
+  width: 750px;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.proj {
+  width: 150px;
+  height: 150px;
+  box-shadow: black;
+  background-color: #e4d6d6;
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#page-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
